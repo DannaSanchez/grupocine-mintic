@@ -1,7 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+:root{
+    --azulClaro:#0D3B66;
+    --azulOscuro:#14213D;
+    --naranja:#FCA311;
+    --amarillo:#FECA11;
+    --rojo:#F95738;
+    --negro:#000000;
+    --blanco:#ffffff;
+}
 h1{
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
     color: #FECA11;
+}
+h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    color:var(--azulOscuro);
+}
+.navbar{
+    background-color: var(--azulOscuro);
+    color: var(--blanco);
+}
+.nav-link {
+    color: #ffffffd9;
+}
+.nav-link-margin{
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar-toggler{
+    color: var(--blanco);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    box-shadow: 0;
+}
+.item-icon{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 0;
+}
+.navbar-expand-sm .navbar-collapse{
+    align-items:flex-end;
+    justify-content:right;
+}
+.item-icon-color1 {
+    background-color:var(--amarillo);
+}
+.item-icon-color2 {
+    background-color: var(--naranja);
+}
+@media screen and (max-width:570px){
+    .item-icon{
+        margin-left: 0;
+        margin-top: 10px;
+    }
 }

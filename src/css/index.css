@@ -1,0 +1,30 @@
+.banner-index{
+    background-image: url(../img/SlideInicio.png);
+    padding:35px 50px;
+}
+.banner-index h1{
+    font-size: 50px;
+    margin: 0;
+}
+.banner-index h6{
+    color: var(--blanco);
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 60px;
+    margin: 0 0 15px 0;
+}
+.banner-index a{
+    background-color: var(--rojo);
+    color: var(--blanco);
+    padding: 8px 20px;
+    text-decoration: none;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 22px;
+    border-radius: 100px;
+}
+.Plataformas-streaming h2{
+    font-size: 35px;
+}
