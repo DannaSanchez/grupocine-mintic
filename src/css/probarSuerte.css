@@ -1,0 +1,11 @@
+.probarSuerte-banner{
+    background-image: url(../img/fondo-probarSuerte.png);
+    height: 90vh;
+    padding: 50px 200px;
+}
+.probarSuerte-banner h1{
+    color: var(--amarillo);
+}
+.probarSuerte-banner h6{
+    color: var(--blanco);
+}

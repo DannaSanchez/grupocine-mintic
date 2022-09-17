@@ -1,0 +1,12 @@
+.banner-peli{
+    background-image: url(../img/SlideInicio.png);
+    padding:30px 150px;
+}
+.banner-peli h1{
+    color: var(--amarillo);
+}
+@media screen and (max-width:570px){
+    .banner-peli{
+        padding:30px 50px;
+    }
+}

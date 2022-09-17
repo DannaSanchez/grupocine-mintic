@@ -12,7 +12,6 @@ h1{
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
-    color: #FECA11;
 }
 h2{
     font-family: 'Oswald';
@@ -59,6 +58,17 @@ h2{
 }
 .item-icon-color2 {
     background-color: var(--naranja);
+}
+.a{
+    color: var(--blanco);
+    padding: 8px 20px;
+    text-decoration: none;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 22px;
+}
+.a:hover{
+    color: var(--blanco);
 }
 @media screen and (max-width:570px){
     .item-icon{
