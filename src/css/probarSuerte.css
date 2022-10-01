@@ -1,6 +1,6 @@
 .probarSuerte-banner{
     background-image: url(../img/fondo-probarSuerte.png);
-    height: 90vh;
+    height: 100vh;
     padding: 50px 150px;
 }
 .probarSuerte-banner h1{
@@ -12,6 +12,11 @@
 .probarSuerte-banner h6{
     color: var(--blanco);
     font-size: 25px;
+}
+.form-label{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 20px;
 }
 @media screen and (max-width:800px){
     .probarSuerte-banner{
