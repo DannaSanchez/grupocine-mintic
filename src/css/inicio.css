@@ -27,7 +27,7 @@
 @media screen and (max-width:800px){
     .registrarse-banner{
         padding: 25px ;
-        height: 100%;
+        height: 100vh;
     }
     .registrarse-banner li, .registrarse-banner h4{
         font-size: 16px;
