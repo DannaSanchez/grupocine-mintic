@@ -1,8 +1,35 @@
 .banner-peli{
     background-image: url(../img/SlideInicio.png);
-    padding:30px 150px;
+    padding:30px 60px;
 }
 .banner-peli h1{
+    color: var(--amarillo);
+}
+.grupo-posters{
+    padding:30px;
+}
+.boton-play{
+    display:inline-block;
+    position:relative;
+}
+.boton-play button{
+    position: absolute;
+    bottom:25%;
+    right:25%;
+    left: 25%;
+    top: 25%;
+    background-color: rgba(255, 1, 1, 0);
+    border:0 none;
+    border-radius: 100%;
+}
+.fa-play{
+    font-size: 50px;
+    color:rgba(255, 255, 255, 0.583);
+    background-color: rgba(0, 0, 0, 0.606);
+    padding: 25px 25px;
+    border-radius: 50%;
+}
+.fa-star{
     color: var(--amarillo);
 }
 @media screen and (max-width:570px){

@@ -1,7 +1,7 @@
 .registrarse-banner{
     background-image: url(../img/fondo-iniciosesion.jpg);
     height: 90vh;
-    padding: 50px 150px;
+    padding: 50px 50px;
 }
 .registrarse-banner h1{
     color: var(--amarillo);
@@ -29,7 +29,7 @@
         height: 100vh;
     }
 }
-@media screen and (min-width:1024px){
+@media screen and (min-width:768px){
     .registrarse-banner{
         padding: 30px 250px;
     }
