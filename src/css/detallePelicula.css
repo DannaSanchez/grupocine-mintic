@@ -1,0 +1,28 @@
+.detallePelicula-fondo{
+    background-image: url(../img/peliculas/poster.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.display-detalle, .display-dondever{
+    display: flex;
+    flex-direction: column;
+}
+.detallePelicula-fondo p, .detallePelicula-fondo table{
+    color: white;
+    font-family: 'Merriweather';
+    font-size:18px;
+}
+.detallePelicula-fondo td{
+    padding:8px 50px 0 0;
+}
+@media screen and (min-width:500px) {
+    .display-detalle, .display-dondever{
+        flex-direction: row;
+    }
+    .display-dondever{
+        justify-content:left;
+    }
+    .texto-detallepelicula{
+        padding:0 30px;
+    }
+}
