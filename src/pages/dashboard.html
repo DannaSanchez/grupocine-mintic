@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/inicio.css">
     <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/pelicula.css">
     <link rel="shortcut icon" href="../img/film-solid.svg" type="image/x-icon">
     <title>Iniciar Sesión</title>
 </head>
@@ -18,7 +20,7 @@
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark  ">
         <div class="container-fluid ">
-            <a class="navbar-brand ms-3" href="../../index.html">Logo</a>
+            <a class="navbar-brand ms-3" href="../../index.html"><img class="m-0" style="width:150px ;" src="../img/logo.jpeg"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,10 +33,6 @@
                     <li class="nav-item">
                         <a class="nav-link nav-link-margin" href="../pages/peliculas.html">Películas</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-margin" href="../pages/series.html">Series</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link nav-link-margin" href="../pages/probarSuerte.html">Probar Suerte</a>
                     </li>
                     <li class="nav-item item-icon item-icon-color1 active">
@@ -58,10 +56,229 @@
         <h6 class="mx-4 mb-4">Aquí encontrarás las películas o series que te han gustado o has calificado</h6>
             <div class="navbar-seguimiento" >
                 <a class="mx-4 ">Películas</a>
-                <a class="mx-4">Series</a>
             </div>
-    </div>
-    </div>
+            <div class="grupo-posters card-group text-center ">
+                <div class="card p-2 border border-0 mx-4">
+                    <div class="boton-play">
+                        <img src="../img/peliculas/poster.png" class="card-img-top m-auto" style="width:150px ;" alt="...">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-play"></i></button>   
+                    </div>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5 text-center"  id="exampleModalLabel" style="color: var(--amarillo);">Trailer de Nombre de la película</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe class="p-0" src="https://www.youtube.com/embed/3C8VPhcZuR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary  border border-0" data-bs-dismiss="modal" style="background-color:var(--azulOscuro)">Close</button>
+                              <button type="button" class="btn btn-primary border border-0" style="background-color:var(--rojo) ; "><a style="color: white; text-decoration: none;"  href="./detallePelicula.html">Ver más detalle</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">Nombre Película</h5>
+                    <p class="card-text">fecha.</p>
+                  </div>
+                </div>
+                <div class="card p-2 border border-0 mx-4">
+                    <div class="boton-play">
+                        <img src="../img/peliculas/poster.png" class="card-img-top m-auto" style="width:150px ;" alt="...">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-play"></i></button>   
+                    </div>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5 text-center"  id="exampleModalLabel" style="color: var(--amarillo);">Trailer de Nombre de la película</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe class="p-0" src="https://www.youtube.com/embed/3C8VPhcZuR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary  border border-0" data-bs-dismiss="modal" style="background-color:var(--azulOscuro)">Close</button>
+                              <button type="button" class="btn btn-primary border border-0" style="background-color:var(--rojo) ; "><a style="color: white; text-decoration: none;"  href="./detallePelicula.html">Ver más detalle</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">Nombre Película</h5>
+                    <p class="card-text">fecha.</p>
+                  </div>
+                </div>
+                <div class="card p-2 border border-0 mx-4">
+                    <div class="boton-play">
+                        <img src="../img/peliculas/poster.png" class="card-img-top m-auto" style="width:150px ;" alt="...">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-play"></i></button>   
+                    </div>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5 text-center"  id="exampleModalLabel" style="color: var(--amarillo);">Trailer de Nombre de la película</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe class="p-0" src="https://www.youtube.com/embed/3C8VPhcZuR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary  border border-0" data-bs-dismiss="modal" style="background-color:var(--azulOscuro)">Close</button>
+                              <button type="button" class="btn btn-primary border border-0" style="background-color:var(--rojo) ; "><a style="color: white; text-decoration: none;"  href="./detallePelicula.html">Ver más detalle</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">Nombre Película</h5>
+                    <p class="card-text">fecha.</p>
+                  </div>
+                </div>
+                <div class="card p-2 border border-0 mx-4">
+                    <div class="boton-play">
+                        <img src="../img/peliculas/poster.png" class="card-img-top m-auto" style="width:150px ;" alt="...">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-play"></i></button>   
+                    </div>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5 text-center"  id="exampleModalLabel" style="color: var(--amarillo);">Trailer de Nombre de la película</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe class="p-0" src="https://www.youtube.com/embed/3C8VPhcZuR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary  border border-0" data-bs-dismiss="modal" style="background-color:var(--azulOscuro)">Close</button>
+                              <button type="button" class="btn btn-primary border border-0" style="background-color:var(--rojo) ; "><a style="color: white; text-decoration: none;"  href="./detallePelicula.html">Ver más detalle</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">Nombre Película</h5>
+                    <p class="card-text">fecha.</p>
+                  </div>
+                </div>
+                <!--segundo gruo-->
+        <div class=" card-group text-center m-auto">
+        <div class="card p-2 border border-0 mx-5">
+            <div class="boton-play">
+                <img src="../img/peliculas/poster.png" class="card-img-top m-auto" style="width:150px ;" alt="...">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-play"></i></button>   
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5 text-center"  id="exampleModalLabel" style="color: var(--amarillo);">Trailer de Nombre de la película</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe class="p-0" src="https://www.youtube.com/embed/3C8VPhcZuR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary  border border-0" data-bs-dismiss="modal" style="background-color:var(--azulOscuro)">Close</button>
+                      <button type="button" class="btn btn-primary border border-0" style="background-color:var(--rojo) ; "><a style="color: white; text-decoration: none;"  href="./detallePelicula.html">Ver más detalle</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <div class="card-body">
+            <h5 class="card-title mb-0">Nombre Película</h5>
+            <p class="card-text">fecha.</p>
+          </div>
+        </div>
+        <div class="card p-2 border border-0 mx-4">
+            <div class="boton-play">
+                <img src="../img/peliculas/poster.png" class="card-img-top m-auto" style="width:150px ;" alt="...">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-play"></i></button>   
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5 text-center"  id="exampleModalLabel" style="color: var(--amarillo);">Trailer de Nombre de la película</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe class="p-0" src="https://www.youtube.com/embed/3C8VPhcZuR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary  border border-0" data-bs-dismiss="modal" style="background-color:var(--azulOscuro)">Close</button>
+                      <button type="button" class="btn btn-primary border border-0" style="background-color:var(--rojo) ; "><a style="color: white; text-decoration: none;"  href="./detallePelicula.html">Ver más detalle</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <div class="card-body">
+            <h5 class="card-title mb-0">Nombre Película</h5>
+            <p class="card-text">fecha.</p>
+          </div>
+        </div>
+        <div class="card p-2 border border-0 mx-4">
+            <div class="boton-play">
+                <img src="../img/peliculas/poster.png" class="card-img-top m-auto" style="width:150px ;" alt="...">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-play"></i></button>   
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5 text-center"  id="exampleModalLabel" style="color: var(--amarillo);">Trailer de Nombre de la película</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe class="p-0" src="https://www.youtube.com/embed/3C8VPhcZuR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary  border border-0" data-bs-dismiss="modal" style="background-color:var(--azulOscuro)">Close</button>
+                      <button type="button" class="btn btn-primary border border-0" style="background-color:var(--rojo) ; "><a style="color: white; text-decoration: none;"  href="./detallePelicula.html">Ver más detalle</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <div class="card-body">
+            <!-- <p class="mb-0 calificacion">15</p> -->
+            <h5 class="card-title mb-0">Nombre Película</h5>
+            <p class="card-text">fecha.</p>
+          </div>
+        </div>
+        <div class="card p-2 border border-0 mx-4">
+            <div class="boton-play">
+                <img src="../img/peliculas/poster.png" class="card-img-top m-auto" style="width:150px ;" alt="...">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-play"></i></button>   
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5 text-center"  id="exampleModalLabel" style="color: var(--amarillo);">Trailer de Nombre de la película</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe class="p-0" src="https://www.youtube.com/embed/3C8VPhcZuR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary  border border-0" data-bs-dismiss="modal" style="background-color:var(--azulOscuro)">Close</button>
+                      <button type="button" class="btn btn-primary border border-0" style="background-color:var(--rojo) ; "><a style="color: white; text-decoration: none;"  href="./detallePelicula.html">Ver más detalle</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <div class="card-body">
+            <h5 class="card-title mb-0">Nombre Película</h5>
+            <p class="card-text">fecha.</p>
+          </div>
+        </div>
+        
+    
     
 
     <!--Bootstrap-->

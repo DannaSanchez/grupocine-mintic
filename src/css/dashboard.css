@@ -10,10 +10,10 @@
 .lista-seguimiento h1{
     font-size: 24px;
 }
+
 .navbar-seguimiento{
     background-image: url(../img/fondo-dashboard.png);
     padding: 5px;
-
 }
 .navbar-seguimiento a:hover{
  text-decoration: underline;
@@ -61,5 +61,13 @@
         background-image: url(../img/fondo-dashboard.png);
         height: 100vh;
         background-repeat: no-repeat;
+        overflow: hidden;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .lista-seguimiento{
+        height: 100vh;
+        overflow: scroll;
     }
 }
